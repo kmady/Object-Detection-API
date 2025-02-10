@@ -11,8 +11,7 @@ This is a simple **Object Detection API** that allows users to upload an image a
 /object-detection-api
 │── /static/            # Stores images & assets
 │── /templates/         # HTML templates (index.html, result.html)
-│── main.py             # Main API logic
-│── model.py            # Object detection model
+│── app.py             # Main API logic
 │── requirements.txt    # Dependencies
 │── README.md           # Documentation
 ```
@@ -85,6 +84,9 @@ curl -X POST -F "file=@example.jpg" http://127.0.0.1:8000/detect/
    → Run: `pip install fastapi`  
 
 ---
+Here is an example of the result
+
+![image](https://github.com/user-attachments/assets/5dbb344e-e6a6-46d3-9326-474b8f5ca6de)
 
 ## 📜 **License**
 This project is licensed under the **MIT License**.
