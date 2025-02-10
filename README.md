@@ -72,7 +72,10 @@ curl -X POST -F "file=@example.jpg" http://127.0.0.1:8000/detect/
 ✅ Uses **FastAPI** and **YOLO** for object detection  
 
 ---
+Here is an example of the result
 
+![image](https://github.com/user-attachments/assets/5dbb344e-e6a6-46d3-9326-474b8f5ca6de)
+---
 ## 🛠 **Troubleshooting**
 **1️⃣ Uvicorn not found?**  
    → Run: `pip install uvicorn`  
@@ -84,9 +87,6 @@ curl -X POST -F "file=@example.jpg" http://127.0.0.1:8000/detect/
    → Run: `pip install fastapi`  
 
 ---
-Here is an example of the result
-
-![image](https://github.com/user-attachments/assets/5dbb344e-e6a6-46d3-9326-474b8f5ca6de)
 
 ## 📜 **License**
 This project is licensed under the **MIT License**.
