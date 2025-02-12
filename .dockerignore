@@ -1,0 +1,5 @@
+static/processed/*.jpg
+static/uploads*.png
+*.md
+.cache
+__pycache__/
