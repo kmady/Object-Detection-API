@@ -1,12 +1,5 @@
 fastapi==0.115.8
-MarkupSafe==3.0.2
-matplotlib==3.10.0
-opencv-python==4.11.0.86
-opencv-python-headless==4.11.0.86
-pandas==2.2.3
-pillow==11.1.0
-pydantic==2.10.6
-pydantic_core==2.27.2
-ultralytics==8.3.74
-ultralytics-thop==2.0.14
 uvicorn
+opencv-python==4.11.0.86
+python-multipart
+ultralytics==8.3.74
